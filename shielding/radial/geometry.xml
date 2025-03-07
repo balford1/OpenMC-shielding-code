@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="1" region="-1" universe="1"/>
+  <cell id="2" material="8" region="1 -2" universe="1"/>
+  <cell id="3" material="4" region="2 -3" universe="1"/>
+  <cell id="4" material="8" region="3 -4" universe="1"/>
+  <cell id="5" material="2" region="4 -5" universe="1"/>
+  <cell id="6" material="6" region="5 -6" universe="1"/>
+  <cell id="7" material="9" region="6 -7" universe="1"/>
+  <cell id="8" material="4" region="7 -8" universe="1"/>
+  <surface coeffs="0 0 249.0" id="1" name="Reactor Outer Radius" type="z-cylinder"/>
+  <surface coeffs="0 0 255.0" id="2" name="Lead Lining" type="z-cylinder"/>
+  <surface coeffs="0 0 310.0" id="3" name="PSWT Outer Radius" type="z-cylinder"/>
+  <surface coeffs="0 0 332.0" id="4" name="Primary Shield Outer Radius" type="z-cylinder"/>
+  <surface coeffs="0 0 1867" id="5" type="z-cylinder"/>
+  <surface coeffs="0 0 1870" id="6" type="z-cylinder"/>
+  <surface coeffs="0 0 1966" id="7" type="z-cylinder"/>
+  <surface boundary="vacuum" coeffs="0 0 2000" id="8" type="z-cylinder"/>
+</geometry>

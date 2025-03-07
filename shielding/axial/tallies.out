@@ -1,0 +1,14 @@
+ ============================>     TALLY 1     <============================
+
+ Cell 7
+   Energy Function f([1.0e+04, ..., 1.0e+10]) = [3.4e-02, ..., 1.7e+02]
+     Particle: photon
+       Total Material
+         Flux                                 1.4662e-05 +/- 5.3381e-06
+ ============================>     TALLY 2     <============================
+
+ Cell 7
+   Energy Function f([1.0e-03, ..., 1.0e+10]) = [1.7e+00, ..., 1.1e+03]
+     Particle: neutron
+       Total Material
+         Flux                                 0 +/- 0

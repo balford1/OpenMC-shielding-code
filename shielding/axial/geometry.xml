@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="8" region="1 -2 7 -8" universe="1"/>
+  <cell id="2" material="2" region="2 -3 9 -10" universe="1"/>
+  <cell id="3" material="2" region="1 -2 9 -7" universe="1"/>
+  <cell id="4" material="2" region="1 -2 -10 8" universe="1"/>
+  <cell id="5" material="6" region="3 -4 9 -10" universe="1"/>
+  <cell id="6" material="9" region="4 -5 9 -10" universe="1"/>
+  <cell id="7" material="4" region="5 -6 9 -10" universe="1"/>
+  <surface boundary="vacuum" coeffs="0" id="1" name="Reactor Top" type="y-plane"/>
+  <surface coeffs="20" id="2" name="Shield Cap" type="y-plane"/>
+  <surface coeffs="0 0 5759" id="3" name="Steel Lining Bottom" type="z-cylinder"/>
+  <surface coeffs="0 0 5762" id="4" name="Containment Bottom" type="z-cylinder"/>
+  <surface coeffs="0 0 5858" id="5" name="Containment Top" type="z-cylinder"/>
+  <surface boundary="vacuum" coeffs="0 0 6008" id="6" name="Upper Bound" type="z-cylinder"/>
+  <surface coeffs="-249" id="7" name="Left Reactor Vessel" type="x-plane"/>
+  <surface coeffs="249" id="8" name="Right Reactor Vessel" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="-1867" id="9" name="Left Bound" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="1867" id="10" name="Right Bound" type="x-plane"/>
+</geometry>
